@@ -12,7 +12,7 @@ function Productbasket() {
       ? chosen.map(product =>{
       if(product.amount !== 0){  return <ProductCard el={product} key={product.id} state={true}/>  } 
       else{  return "";  }})
-      : <h1>there is no products to show</h1>}
+      : <h1 className="text-2xl italic capitalize">this product is not available right now</h1>}
     </div>
 </>)
 }
