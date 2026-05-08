@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background-color: lightslategray;
+}
+.logo{
+    width: 130px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.search input{
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+.search button{
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: -20px;
+    background-color: #cb406a;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}

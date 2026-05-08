@@ -1,0 +1,18 @@
+.card{
+    max-height: fit-content;
+    width: 300px;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: cornflowerblue;
+    margin: 15px 0;
+    cursor: pointer;
+}
